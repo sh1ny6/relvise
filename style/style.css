@@ -196,7 +196,7 @@ h1,h2,h3,p{
     flex-direction: column;
     align-items: center;
 }
-.section-first__upper{
+.h2{
     color: #252B42;
     letter-spacing: 0.2px;
     font-weight: bold;
@@ -205,7 +205,7 @@ h1,h2,h3,p{
     margin-bottom: 10px;
     text-align: center;
 }
-.section-first__lower{
+.lw{
     color: #737373;
     text-align: center;
     letter-spacing: 0.2px;
@@ -213,6 +213,7 @@ h1,h2,h3,p{
     line-height: 143%;
     margin-bottom: 50px;
     max-width: 511px;
+    font-weight: 500;
 }
 .background{
     background: #FAFAFA;
@@ -220,6 +221,7 @@ h1,h2,h3,p{
 .section-second{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 205px;
 }
 .section-second__first{
     background: #FFFFFF;
@@ -227,7 +229,7 @@ h1,h2,h3,p{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 240px;
+    width: 230px;
     height: 209px;
     padding: 30px 30.5px;
 }
@@ -237,7 +239,7 @@ h1,h2,h3,p{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 240px;
+    width: 230px;
     height: 209px;
     padding: 30px 30.5px;
 }
@@ -247,7 +249,7 @@ h1,h2,h3,p{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 240px;
+    width: 230px;
     height: 209px;
     padding: 30px 30.5px;
 }
@@ -257,8 +259,44 @@ h1,h2,h3,p{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 240px;
+    width: 230px;
     height: 209px;
     padding: 30px 30.5px;
 }
+.imgs2{
+    height: 48px;
+    width: 48px;
+}
+.h2s2{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 142%;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.ps2{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #737373;
+}
+.section-third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-third_lower{
+    color: #737373;
+    text-align: center;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    line-height: 143%;
+    margin-bottom: 45px;
+    max-width: 470px;
+    font-weight: 500;
+}
+
+
 
