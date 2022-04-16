@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+html,body{
+    height: 100%;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    vertical-align: top;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,p{
+    font-weight: inherit;
+    font-size: inherit;
+}
+.container{
+    max-width:1046px ;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
