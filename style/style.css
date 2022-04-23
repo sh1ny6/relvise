@@ -973,6 +973,28 @@ input.subscribe-input::placeholder {
   width: 597px;
 }
 
+.head-title {
+  color: #252B42;
+  letter-spacing: 0.2px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 142%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.head-text {
+  color: #737373;
+  text-align: center;
+  letter-spacing: 0.2px;
+  font-size: 14px;
+  line-height: 143%;
+  padding-bottom: 80px;
+  max-width: 511px;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
 /* adaptive */
 @media (max-width: 768px) {
   .header-top {
@@ -998,10 +1020,25 @@ input.subscribe-input::placeholder {
     display: -ms-flexbox;
     display: flex;
   }
+  .subscribe-info {
+    margin-left: 80px;
+  }
   .video {
     -ms-flex-preferred-size: 60%;
         flex-basis: 60%;
     background-position-x: center;
+  }
+  .subscribe > form {
+    margin-right: 80px;
+  }
+  .touch-item:nth-child(2) {
+    padding: 80px 5px;
+  }
+  .touch-item {
+    padding: 50px 25px;
+  }
+  .center-name {
+    padding-right: 50px;
   }
   .section-video__text {
     -ms-flex-preferred-size: 40%;
@@ -1124,6 +1161,54 @@ input.subscribe-input::placeholder {
   }
   .header-bottom__3 {
     margin-top: 20px;
+  }
+  .touch-box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 480px;
+    padding-top: 20px;
+  }
+  .subscribe > form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .subscribe {
+    max-width: 480px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .subscribe-info {
+    margin: 0;
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+  .section-second__second {
+    margin-bottom: 40px;
+  }
+  .section-second__third {
+    margin-bottom: 40px;
+  }
+  .section-fourth__first {
+    margin-bottom: 30px;
+  }
+  .section-fourth__first:last-child {
+    margin-bottom: 0;
+  }
+  .touch-item:nth-child(2) {
+    padding: 80px 60px;
+  }
+  .touch-item {
+    padding: 50px 40px;
+  }
+  input.subscribe-input {
+    width: 196px;
+  }
+  .subscribe-info {
+    max-width: 480px;
+  }
+  input.subscribe-input {
+    width: 262px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -646,6 +646,26 @@ input.subscribe-input::placeholder{
         background-size: cover;
         width: 597px;
 }
+.head-title{
+    color: $primary-color;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 142%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.head-text{
+    color: #737373;
+    text-align: center;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    line-height: 143%;
+    padding-bottom: 80px;
+    max-width: 511px;
+    font-weight: 500;
+    margin: 0 auto;
+}
 /* adaptive */
 
 @media(max-width:768px){
@@ -661,9 +681,24 @@ input.subscribe-input::placeholder{
         align-items: center;
         display: flex;
     }
+    .subscribe-info{
+        margin-left: 80px;
+    }
     .video{
         flex-basis: 60%;
         background-position-x: center;
+    }
+    .subscribe>form{
+        margin-right: 80px;
+    }
+    .touch-item:nth-child(2) {
+        padding: 80px 5px;
+    }
+    .touch-item{
+        padding: 50px 25px;
+    }
+    .center-name{
+        padding-right: 50px;
     }
     .section-video__text{
         flex-basis: 40%;
@@ -745,6 +780,50 @@ input.subscribe-input::placeholder{
     }
     .header-bottom__3{
         margin-top: 20px;
+    }
+    .touch-box{
+        flex-wrap: wrap;
+        max-width: 480px;
+        padding-top: 20px;
+    }
+    .subscribe>form{
+     display: flex;
+    }
+    .subscribe{
+        max-width: 480px;
+        flex-wrap: wrap;
+    }
+    .subscribe-info{
+        margin: 0;
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+    .section-second__second{
+        margin-bottom: 40px;
+    }
+    .section-second__third{
+        margin-bottom: 40px;
+    }
+    .section-fourth__first{
+        margin-bottom: 30px;
+    }
+    .section-fourth__first:last-child{
+        margin-bottom: 0;
+    }
+    .touch-item:nth-child(2) {
+        padding: 80px 60px;
+    }
+    .touch-item{
+        padding: 50px 40px;
+    }
+    input.subscribe-input{
+        width: 196px;
+    }
+    .subscribe-info{
+        max-width: 480px;
+    }
+    input.subscribe-input {
+        width: 262px;
     }
 }
 
